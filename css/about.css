@@ -1,2 +1,21 @@
+body {
+    margin: 4em 1.5em;
+}
 
+.headshot {
+    display: block;
+    width: 15em;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 5px solid #2196F3;
+    margin: 4em auto 0;
+    padding: 0;
+    width: 7em;
+}
 
