@@ -43,7 +43,8 @@ hr {
 }
 
 .project-tags li {
-    display: inline;
+    display: inline-block;
+    margin-top: 0.2em;
     margin-right: 2%;
     color: #fff;
     background-color: #2196F3;
