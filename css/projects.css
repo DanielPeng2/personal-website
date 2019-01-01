@@ -38,7 +38,7 @@ hr {
 }
 
 .project-tags {
-    margin-top: 1em;
+    margin-top: 0.5em;
     list-style: none;
 }
 
@@ -57,7 +57,8 @@ hr {
     max-width: 25em;
 }
 
-.project-content a {
+.project-content a:link,
+.project-content a:visited {
     background-color: #373737;
     border: none;
     border-radius: 0.7em;
@@ -71,7 +72,8 @@ hr {
     transition: background-color 0.2s;
 }
 
-.project-content a:hover {
+.project-content a:hover,
+.project-content a:active {
     background-color: #111;
 }
 
@@ -93,3 +95,19 @@ hr {
     opacity: 0.6;
     cursor: not-allowed;
 }
+
+@media only screen and (max-width: 600px) {
+    .project-container .phone-screen {
+        width: 23%;
+        height: auto;
+    }
+
+    .project-container .laptop-screen {
+        width: 40%;
+        height: auto;
+    }
+
+    .project-content a {
+        margin: 1em auto;
+    }
+} 
