@@ -1,3 +1,7 @@
+body {
+    margin: 3em 1.5em;
+}
+
 .article {
     color: #373737;
     margin: 0 auto;
@@ -25,4 +29,10 @@
 .article a:hover,
 .article a:active {
     border-bottom: 1px solid #F44336;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 1.5em 1.5em;
+    }
 }
