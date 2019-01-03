@@ -4,15 +4,39 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Experience</title>
         <link rel="stylesheet" type="text/css" href="css/global.css">
+        <link rel="stylesheet" type="text/css" href="css/global-showcase.css">
         <link rel="stylesheet" type="text/css" href="css/experience.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
     </head>
     <body>
         <div class="container">
             <h1>My experience.</h1>
             <hr/>
-            <div class="experience-container">
-                
+            <div class="project-wrapper">
+                <div class="project-container">
+                    <div class="project-content">
+                        <div class="job-title">Mobile Applications Developer</div>
+                        <div class="job-company">TD Bank</div>
+                        <ul class="project-tags">
+                            <li>Android</li>
+                            <li>Java</li>
+                            <li>Kotlin</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+                    <img src="assets/logo-td.svg">
+                </div>
+                <i class="material-icons collapsible">expand_more</i>
+                <div class="collapsible-content">
+                    <p> - Worked in a cross-platform, agile team to develop a workspace IoT Android app from scratch that allows employees to perform scheduling and booking tasks</p>
+                    <p> - Integrated Firebase Realtime Database using MVVM architecture, allowing the service layer to be easily swappable with alternative service providers in the future </p>
+                    <p> - Utilized latest Android architecture components like Data Binding, LiveData, and ViewModels to manage UI component data and lifecycles </p>
+                    <p> - Contributed to UI design, discussion, and prototyping with Adobe XD</p>
+                </div>
             </div>
+            <hr class="project-divider">
         </div>
     </body>
 </html>
