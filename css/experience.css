@@ -26,7 +26,6 @@ hr {
 }
 
 .project-container {
-    height: auto;
     text-align: left;
 }
 
@@ -59,4 +58,5 @@ hr {
 
 .collapsible-content p {
     margin-bottom: 1em;
+    line-height: 1.5em;
 }

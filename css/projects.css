@@ -5,9 +5,14 @@
     width: 60%;
 }
 
-.project-container img {
-    height: 100%;
-    width: auto;   
+.project-container .phone-screen {
+    width: 6em;
+    height: auto;   
+}
+
+.project-container .laptop-screen {
+    width: 13em;
+    height: auto;   
 }
 
 .project-content p {
@@ -26,7 +31,7 @@
     text-decoration: none;
     display: block;
     font-size: 16px;
-    margin: 3em auto 0;
+    margin: 1.5 em auto 0;
     transition: background-color 0.2s;
 }
 
@@ -41,11 +46,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .project-container .phone-screen {
-        width: 23%;
-        height: auto;
-    }
-
     .project-container .laptop-screen {
         width: 40%;
         height: auto;
