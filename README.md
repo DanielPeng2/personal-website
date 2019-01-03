@@ -1,7 +1,7 @@
 # danielpeng2.github.io
 My personal website, created with HTML, CSS, and JQuery.
 
-Come take a look at [danielpeng.ca](danielpeng.ca)! (Warning: still in development)
+Come take a look at http://danielpeng.ca! (Warning: still in development)
 
 ## What I Learned
 * This was my first real front-end web dev project, so it helped me get a lot more comfortable with HTML, CSS, and JavaScript.
