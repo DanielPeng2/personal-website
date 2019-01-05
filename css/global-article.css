@@ -48,6 +48,16 @@ body {
     border-bottom: 1px solid #F44336;
 }
 
+.article a img {
+    border-radius: 1em;
+    border: 2px solid transparent;
+    transition: border 0.2s;
+}
+
+.article a img:hover {
+    border: 2px solid #F44336;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         margin: 1.5em 1.5em;

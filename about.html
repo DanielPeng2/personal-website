@@ -6,8 +6,10 @@
         <link rel="stylesheet" type="text/css" href="css/global.css">
         <link rel="stylesheet" type="text/css" href="css/global-article.css">
         <link rel="stylesheet" type="text/css" href="css/about.css">
+        <link href="lightbox/css/lightbox.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/script.js"></script>
+        <script src="lightbox/js/lightbox.js"></script>
     </head>
     <body>
         <img src="assets/headshot.png" class="headshot">
@@ -32,10 +34,15 @@
 
             <p>I've spent countless hours tinkering with my phones to get them just the way I want them. Experimental custom ROMs, flashing custom kernels, bootloops, I've seen it all. I also like theming my phone homescreens to keep my phone feeling fresh and interesting.</p>
 
-            <img src="assets/theme2.jpg" style="max-width: 50%;">
-            <img src="assets/theme1.png" style="max-width: 100%;">
-            <img src="assets/theme3.png" style="max-width: 50%;">
-            <figcaption>Some of the themes I have made for my phones.</figcaption>
+            <div>
+                <a href="assets/theme1.jpg" data-lightbox="theme-set"><img src="assets/theme1.jpg" style="max-width: 50%;"></a>
+                <a href="assets/theme2.png" data-lightbox="theme-set"><img src="assets/theme2.png" style="display: none;"></a>
+                <a href="assets/theme3.png" data-lightbox="theme-set"><img src="assets/theme3.png" style="display: none;"></a>
+                <a href="assets/theme4.png" data-lightbox="theme-set"><img src="assets/theme4.png" style="display: none;"></a>
+                <a href="assets/theme5.png" data-lightbox="theme-set" data-title="The sidebars come in when you swipe left or right."><img src="assets/theme5.png" style="display: none;"></a>
+            </div>
+
+            <figcaption>Some of the themes I have made for my phones. Click to view more!</figcaption>
         </div>
     </body>
 </html>
