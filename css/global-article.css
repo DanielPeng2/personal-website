@@ -24,6 +24,17 @@ body {
     margin-top: 1.5em;
 }
 
+.article img {
+    display: block;
+    margin: 1.5em auto 0;
+}
+
+.article figcaption {
+    margin-top: 1em;
+    text-align: center;
+    font-style: italic;
+}
+
 .article a:link,
 .article a:visited {
     text-decoration: none;
