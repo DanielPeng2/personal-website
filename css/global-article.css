@@ -9,6 +9,12 @@ body {
     line-height: 1.7em;
 }
 
+.date {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #bbb;
+}
+
 .article h2 {
     margin-top: 1.5em;
 }

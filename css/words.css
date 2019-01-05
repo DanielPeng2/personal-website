@@ -9,3 +9,13 @@
     margin-left: 0;
     width: 10%;
 }
+
+.date {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #bbb;
+}
+
+h2 {
+    font-size: 1.75em;
+}
