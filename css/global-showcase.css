@@ -50,10 +50,6 @@ hr {
     transition: border-top 0.2s;
 }
 
-.project-container:hover + .project-divider {
-    border-top: 2px solid #F44336;
-}
-
 @media only screen and (max-width: 600px) {
     body {
         margin: 1.5em 1.5em;

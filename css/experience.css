@@ -21,10 +21,6 @@ hr {
     text-align: center;
 }
 
-.project-wrapper:hover + .project-divider {
-    border-top: 2px solid #F44336;
-}
-
 .project-container {
     text-align: left;
 }
@@ -35,7 +31,9 @@ hr {
 }
 
 .job-company {
-    font-size: 1.5em;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #bbb;
 }
 
 .project-container img {
@@ -54,9 +52,10 @@ hr {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     text-align: left;
+    line-height: 1.5em;
 }
 
-.collapsible-content p {
+.collapsible-content ul li {
+    list-style-position: inside;
     margin-bottom: 1em;
-    line-height: 1.5em;
 }

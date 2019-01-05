@@ -12,8 +12,12 @@
 
 .date {
     font-weight: 600;
-    font-size: 1.1em;
     color: #bbb;
+    font-size: 1.1em;
+}
+
+.project-container:hover + .project-divider {
+    border-top: 2px solid #F44336;
 }
 
 h2 {
