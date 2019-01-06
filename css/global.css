@@ -8,3 +8,62 @@
 html, body {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.nav-button {
+    position: fixed;
+    right: 1.5em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 100px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 0;
+    width: max-content;
+    text-decoration: none;
+    text-transform: lowercase;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s;
+}
+
+.sidenav a:hover {
+    border-bottom: 1px solid #F44336;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 28px;
+    left: 25px;
+    font-size: 36px;
+}
+
+.sidenav .closebtn:hover {
+    color: #f1f1f1;
+    border-bottom: 1px solid transparent;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidenav .closebtn {
+        top: 5px;
+    }
+
+    .sidenav {
+        padding-top: 77px;
+    }
+}

@@ -1,6 +1,9 @@
 $(document).ready(function() {
+
+    // open external links in new tab
     $( 'a[href^="https://"], a[href^="assets/resume.pdf"]' ).attr( 'target','_blank' );
 
+    // slide down collapsible
     var coll = document.getElementsByClassName("collapsible");
     var i;
 
@@ -18,3 +21,12 @@ $(document).ready(function() {
         });
     }
 });
+
+//sidenav
+function openNav() {
+    document.getElementById("my-sidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("my-sidenav").style.width = "0";
+}
