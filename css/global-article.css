@@ -29,7 +29,7 @@ body {
     margin: 1.5em auto 0;
 }
 
-.article figcaption {
+.article .caption {
     margin-top: 1em;
     text-align: center;
     font-style: italic;
