@@ -25,12 +25,20 @@ hr {
     text-align: left;
 }
 
+.project-content {
+    width: 60%;
+}
+
 .job-title {
     font-size: 1.5em;
     font-weight: 600;
 }
 
 .job-company {
+    font-size: 1.5em;
+}
+
+.job-date {
     font-weight: 600;
     font-size: 1.1em;
     color: #bbb;
