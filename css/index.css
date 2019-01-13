@@ -69,7 +69,8 @@ html, body {
     }
 
     .content hr {
-        margin: 20% auto;
+        margin: 10% auto;
+        width: 40%;
     }
 
     .nav li {
